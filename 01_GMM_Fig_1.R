@@ -125,14 +125,14 @@ gmm_neg <- ggplot(df_neg, aes(x = x)) +
   p_theme +
   ggtitle(paste0(antigen_name, ": Gaussian (k=3) - Unexposed controls")) +
   xlab("log(MFI)") +
-  scale_x_continuous(limits = c(2.5, MFI_max + 0.5))
+  scale_x_continuous(limits = c(0, MFI_max + 0.5))
 
 gmm_pos <- ggplot(df_pos, aes(x = x)) +
   geom_histogram(aes(y = after_stat(density)), bins = 30, fill = "red", alpha = 0.5) +
   p_theme +
   ggtitle(paste0(antigen_name, ": Gaussian (k=3) - Exposed controls")) +
   xlab("log(MFI)") +
-  scale_x_continuous(limits = c(2.5, MFI_max + 0.5))
+  scale_x_continuous(limits = c(0, MFI_max + 0.5))
 
 gmm_un <- ggplot(df_un, aes(x = x)) +
   geom_histogram(aes(y = after_stat(density)), bins = 30, alpha = 0.5) +
@@ -143,7 +143,7 @@ gmm_un <- ggplot(df_un, aes(x = x)) +
   p_theme +
   ggtitle(paste0(antigen_name, ": Gaussian (k=3) - Unknown samples")) +
   xlab("log(MFI)") +
-  scale_x_continuous(limits = c(2.5, MFI_max + 0.5))
+  scale_x_continuous(limits = c(0, MFI_max + 0.5))
 
 plot_gmm_k3 <- plot_grid(gmm_un, gmm_neg, gmm_pos, ncol = 1)
 

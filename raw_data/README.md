@@ -1,3 +1,3 @@
 # `raw_data/`
 
-* contains the data files used in the project.
+* contains the raw data files used.

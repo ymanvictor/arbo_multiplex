@@ -1,4 +1,4 @@
-# A repository to analyse multiplex arbovirus serological data
+# A repo to analyse multiplex arbovirus serological data
 
 ## Data
 

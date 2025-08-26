@@ -16,6 +16,10 @@ Before running any analysis scripts, ensure that Stan’s command-line toolchain
 
 Filenames are prefixed to indicate the intended order of execution
 
+### Stan code
+
+Stan code to run Bayesian finite mixture models is included within the /src directory
+
 ### Related code
 
 Code to run the "cross-reactivity models" is available at https://github.com/nathoze/Mayaro

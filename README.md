@@ -2,7 +2,7 @@
 
 ## Data
 
-Individual-level data are protected by participant confidentiality requirements under the GDPR and national regulations in France, Peru, and Senegal, as well as local ethics approvals. Consequently, raw individual-level datasets cannot be shared publicly. De-identified summary data sufficient to reproduce the main analyses are included in this repository.
+Individual-level data are protected by participant confidentiality requirements under the GDPR and national regulations in France, Peru, and Senegal, as well as local ethics approvals. Consequently, raw individual-level datasets cannot be shared publicly. De-identified data and summary data sufficient to reproduce the main analyses and figures of the manuscript are included in this repository.
 
 ## Code
 
@@ -12,9 +12,9 @@ All analyses were performed in R (v4.4.3) on macOS (v15.0.1). Bayesian finite mi
 
 Before running any analysis scripts, ensure that Stan’s command-line toolchain (CmdStan) is installed and available through CmdStanR, and that a working C/C++ toolchain is present. Use CmdStanR to verify the toolchain and complete the CmdStan installation; the initial build compiles locally and may take several minutes. Confirm that CmdStanR detects a valid CmdStan version and path prior to execution.
 
-### Execution order
+### Execution order and expected runtime
 
-Filenames are prefixed to indicate the intended order of execution
+Filenames are prefixed to indicate the intended order of execution. The expected total runtime on a standard desktop computer is approximately 5 minutes.
 
 ### Stan code
 

@@ -1,4 +1,4 @@
-# Data
+# data/
 
 ## File content
 

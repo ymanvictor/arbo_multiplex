@@ -2,7 +2,7 @@
 
 ## Data
 
-De-identified individual-level antibody data and source data sufficient to reproduce the analyses and figures of the manuscript are included in this repository.
+Individual-level antibody data and source data sufficient to reproduce the analyses and figures of the manuscript are included in this repository.
 
 ## Code
 

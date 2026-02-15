@@ -2,7 +2,7 @@
 
 ## Data
 
-Individual-level data are protected by participant confidentiality requirements under the GDPR and national regulations in France, Peru, and Senegal, as well as local ethics approvals. Consequently, raw individual-level datasets cannot be shared publicly. De-identified data and source data sufficient to reproduce the analyses and figures of the manuscript are included in this repository.
+De-identified individual-level antibody data and source data sufficient to reproduce the analyses and figures of the manuscript are included in this repository.
 
 ## Code
 

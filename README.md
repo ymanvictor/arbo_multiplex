@@ -1,4 +1,4 @@
-# A repo to analyse multiplex arbovirus serological data
+# A repo to analyse multiplex arbovirus serological data (DOI 10.5281/zenodo.18704897)
 
 ## Data
 

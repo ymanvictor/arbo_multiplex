@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Code and source data accompanying the paper. Please cite the article and this archive."
+type: software
+title: "Code and source data for: Investigating antibody cross-reactivity and transmission dynamics of alphaviruses and flaviviruses using a multiplex serological assay"
+code authors:
+  - family-names: "Yman"
+    given-names: "Victor"
+repository-code: "https://github.com/yman_victor/arbo_multiplex"
+license: "MIT"
+keywords:
+  - serology
+  - arboviruses
+  - analysis code
